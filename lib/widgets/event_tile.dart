@@ -62,7 +62,7 @@ class EventTile extends StatelessWidget {
             : null,
       ),
       subtitle: Text('${formatWhen(event.startsAt)}\n$where'),
-      trailing: event.cancelled ? const Chip(label: Text('Cancelled')) : null,
+      trailing: event.cancelled ? const Chip(label: Text('Canceled')) : null,
       isThreeLine: true,
     );
   }
